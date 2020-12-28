@@ -1,5 +1,7 @@
 It is my solution for MARS ROVERS problem based in C# and xUnit.
 
+[![Build Status](https://img.shields.io/github/workflow/status/felipeoriani/mars-rover-problem/.NET)](https://img.shields.io/github/workflow/status/felipeoriani/mars-rover-problem/.NET)
+
 # Mars Rover Problem
 
 MARS ROVERS
