@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 5.0.100
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore /src/Mars.Tests.csproj
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build /src/Mars.Tests.csproj --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test /src/Mars.Tests.csproj --no-build --verbosity normal
